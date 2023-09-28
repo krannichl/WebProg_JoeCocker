@@ -1,0 +1,69 @@
+/** Hintergrundbild **/
+html {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/** Allgemeine Schrifteinstellungen **/
+@import url('https://fonts.googleapis.com/css?family=Bellefair');
+
+html {
+    font-family: 'Bellefair', serif;
+    font-size: 13pt;
+
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+/** Header **/
+header {
+    padding: 0em 1em 0em 1em;
+    font-variant: small-caps;
+
+    display: flex;
+    justify-content : space-between;
+    align-content: center;
+    align-items: center;
+
+    background-color: rgb(235, 235, 235);
+    border: 0px solid #a8aeb1;
+    border-bottom-width: 2px;
+}
+
+/** Hauptbereich **/
+main {
+    padding: 1em;
+}
+
+main > aside{
+    float: right;
+    text-align: right;
+    max-width: 50%;
+}
+
+main > aside > img {
+    border: 1px solid #707070;
+    padding: 0.2em;
+    background: #eaeaea;
+
+    height: 10em;
+    width: 10em;
+}
+
+main > aside > h2 {
+    text-align: center;
+    margin: 2em 0 2em 0;
+    color: rgb(120, 120, 120);
+    font-weight: normal;
+}
+
+#logo{
+    height: 3em;
+}
